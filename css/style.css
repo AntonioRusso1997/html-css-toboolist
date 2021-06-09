@@ -7,13 +7,39 @@
 
 /* Common */
 
+body {
+    background-color: #e0e0e0;
+}
+
+main {
+    width: 80%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+.top-button {
+    border-radius: 5px;
+    padding: 10px;
+    color: lightgray;
+    background-color: white;
+    border: 1px solid lightgray;
+    }
+
+.blue {
+    color: white;
+    background-color: #45ABEA;
+    border: 1px solid #45ABEA;
+}
+
+
 /* Fine Common */
 
 .logo-home {
     height: 60px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;        
+    padding-left: 10px;    
+    background-color: white;    
 }
 
 .logo-home img {
@@ -27,4 +53,16 @@
     font-size: 40px;
     text-align: center;
     vertical-align: middle;
+}
+
+.top-main {
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 10px 50px 5px 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
