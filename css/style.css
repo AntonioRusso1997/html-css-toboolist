@@ -8,11 +8,11 @@
 /* Common */
 
 body {
-    background-color: #e0e0e0;
+    background-color: #eeeeee;
 }
 
 main {
-    width: 80%;
+    width: 70%;
     margin:0 auto;
     margin-top: 40px;
 }
@@ -23,12 +23,49 @@ main {
     color: lightgray;
     background-color: white;
     border: 1px solid lightgray;
-    }
+}
+
+.button {
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px;
+    color: lightgray;
+}
 
 .blue {
     color: white;
     background-color: #45ABEA;
     border: 1px solid #45ABEA;
+}
+
+.purple {
+    color: white;
+    background-color: #9C72E4;
+    border: 1px solid #9C72E4;
+}
+
+.green {
+    color: white;
+    background-color: #64C0A9;
+    border: 1px solid #64C0A9;
+}
+
+.orange {
+    color: white;
+    background-color: #F29E33;
+    border: 1px solid #F29E33;
+}
+
+.rose {
+    color: white;
+    background-color: #D863A1;
+    border: 1px solid #D863A1;
+}
+
+.yellow {
+    color: white;
+    background-color: #a6b44a;
+    border: 1px solid #a6b44a;
 }
 
 
@@ -66,3 +103,35 @@ main {
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
 }
+
+.principale {
+    color: black;
+    background-color: white;
+    margin-top: 2px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.sezioni {
+    margin-bottom: 30px;
+}
+
+.testo {
+    display: block;
+    margin: 15px;
+}
+
+.symbol {
+    font-size: 13px;
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-right: 5px;
+}
+
+.red {
+    color: red;
+    border-color: red;
+
+}
+
