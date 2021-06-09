@@ -122,11 +122,12 @@ main {
 }
 
 .symbol {
-    font-size: 13px;
+    font-size: 11px;
     color: green;
     border-radius: 50%;
     border: 1px solid green;
     margin-right: 5px;
+    padding: 2px;
 }
 
 .red {
